@@ -1,0 +1,125 @@
+﻿@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ministry of Justice Demo</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="~/assets/files/assets/images/favicon.ico" type="image/x-icon"><!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet"><!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/bower_components/bootstrap/css/bootstrap.min.css"><!-- waves.css -->
+    <link rel="stylesheet" href="~/assets/files/assets/pages/waves/css/waves.min.css" type="text/css" media="all"><!-- feather icon -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/assets/icon/feather/css/feather.css"><!-- font-awesome-n -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/assets/css/font-awesome-n.min.css"><!-- Redial css -->
+    <link rel="stylesheet" href="~/assets/files/assets/pages/chart/radial/css/radial.css" type="text/css" media="all">
+    <!-- light-box css -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/bower_components/ekko-lightbox/css/ekko-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/files/bower_components/lightbox2/css/lightbox.css">
+    <!-- Multi Select css -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/bower_components/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/files/bower_components/multiselect/css/multi-select.css" />
+
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="~/assets/files/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/files/assets/css/widget.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/files/assets/css/pages.css">
+    <style>
+        .loggedin-username-background:hover {
+            background-color: #4fc3f7 !important;
+        }
+    </style>
+    <link href="~/assets/app/styles.ac89bfdd6de82636b768.bundle.css" rel="stylesheet" />
+</head>
+<body>
+    <app-root></app-root><!-- Warning Section Starts --><!-- Older IE warning message -->
+    <!--[if lt IE 10]>
+        <div class="ie-warning">
+
+            <h1>Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade
+                <br/>to any of the following web browsers to access this website.
+            </p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="~/assets/files/assets/images/browser/chrome.png" alt="Chrome">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="~/assets/files/assets/images/browser/firefox.png" alt="Firefox">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="~/assets/files/assets/images/browser/opera.png" alt="Opera">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="~/assets/files/assets/images/browser/safari.png" alt="Safari">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="~/assets/files/assets/images/browser/ie.png" alt="">
+                            <div>IE (9 & above)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Warning Section Ends --><!-- Required Jquery -->
+    <script type="text/javascript" src="~/assets/files/bower_components/jquery/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/jquery-ui/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/popper.js/js/popper.min.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/assets/files/assets/js/pace.min.js"></script><!-- waves js -->
+    <script src="~/assets/files/assets/pages/waves/js/waves.min.js"></script><!-- jquery slimscroll js -->
+    <script type="text/javascript" src="~/assets/files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js"></script><!-- Float Chart js -->
+    <!-- <script src="~/assets/files/assets/pages/chart/float/jquery.flot.js"></script>
+    <script src="~/assets/files/assets/pages/chart/float/jquery.flot.categories.js"></script>
+    <script src="~/assets/files/assets/pages/chart/float/curvedLines.js"></script>
+    <script src="~/assets/files/assets/pages/chart/float/jquery.flot.tooltip.min.js"></script> -->
+    <!-- amchart js -->
+    <script src="~/assets/files/assets/pages/widget/amchart/amcharts.js"></script>
+    <script src="~/assets/files/assets/pages/widget/amchart/serial.js"></script>
+    <script src="~/assets/files/assets/pages/widget/amchart/light.js"></script><!-- Chartlist charts -->
+    <script src="~/assets/files/bower_components/chartist/js/chartist.js"></script>
+    <!-- Multiselect js -->
+    <script type="text/javascript" src="~/assets/files/bower_components/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/multiselect/js/jquery.multi-select.js"></script>
+    <!-- light-box js -->
+    <script type="text/javascript" src="~/assets/files/bower_components/ekko-lightbox/js/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/lightbox2/js/lightbox.js"></script><!-- Multiselect js -->
+    <script type="text/javascript" src="~/assets/files/bower_components/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
+    <script type="text/javascript" src="~/assets/files/bower_components/multiselect/js/jquery.multi-select.js"></script>
+    <!-- Custom js -->
+    <script src="~/assets/files/assets/js/pcoded.min.js"></script>
+    <script src="~/assets/files/assets/js/vertical/vertical-layout.min.js"></script>
+    <script type="text/javascript" src="~/assets/files/assets/pages/dashboard/custom-dashboard.min.js"></script>
+    <script type="text/javascript" src="~/assets/app/inline.318b50c57b4eba3d437b.bundle.js"></script>
+    <script type="text/javascript" src="~/assets/app/polyfills.515ed9df1f4876ab6cb6.bundle.js"></script>
+    <script type="text/javascript" src="~/assets/app/main.d13df43b7312b66d11d6.bundle.js"></script>
+    <script type="text/javascript">
+    //light box
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+    </script>
+    <script type="text/javascript" src="~/assets/files/assets/js/script.min.js"></script>
+</body>
+</html>

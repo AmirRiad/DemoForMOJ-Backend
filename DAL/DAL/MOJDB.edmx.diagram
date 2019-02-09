@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3ecbe73ce72c4a2ca161c6a3325dd6dc" Name="Diagram1">
+        <EntityTypeShape EntityType="MOJDBModel.AspNetRoles" Width="1.5" PointX="5.625" PointY="2" />
+        <EntityTypeShape EntityType="MOJDBModel.AspNetUsers" Width="1.5" PointX="3.375" PointY="1" />
+        <AssociationConnector Association="MOJDBModel.AspNetUserRoles" />
+        <EntityTypeShape EntityType="MOJDBModel.AspNetUserClaims" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MOJDBModel.AspNetUserLogins" Width="1.5" PointX="2.75" PointY="5.75" />
+        <EntityTypeShape EntityType="MOJDBModel.LK_SystemUserType" Width="1.5" PointX="1.125" PointY="8.125" />
+        <AssociationConnector Association="MOJDBModel.FK_AspNetUsers_LK_SystemUserType" />
+        <EntityTypeShape EntityType="MOJDBModel.Patients" Width="1.5" PointX="5.625" PointY="5" />
+        <AssociationConnector Association="MOJDBModel.FK_Patients_AspNetUsers" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
